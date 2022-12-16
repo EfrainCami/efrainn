@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 
 #inicio {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/hotel.jpg");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../../img/hotel.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;

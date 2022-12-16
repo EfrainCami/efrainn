@@ -1,0 +1,9 @@
+section {
+    display: flex;
+}
+
+section .image {
+    height: 530px;
+    width: 800px;
+    border-radius: 30px;
+}

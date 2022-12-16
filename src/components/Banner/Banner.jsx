@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
 
-import logo from "../img/mandala.png";
+import logo from "../../img/mandala.png";
 
 const Banner = () => {
   return (
