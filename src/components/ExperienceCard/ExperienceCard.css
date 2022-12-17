@@ -1,4 +1,4 @@
-.container {
+.experience {
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
@@ -8,19 +8,21 @@
     filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.31))
 }
 
-.container .image {
+.experience .experience__image {
     height: 570px;
+    max-width: 380px;
+    object-fit: cover;
 }
 
-.container .text-container {
+.experience .experience__text-container {
     margin: 60px 20px 20px 40px;
 }
 
-.container .text-container .title {
+.experience .experience__text-container .experience__title {
     font-size: 40px;
 }
 
-.container .text-container .description {
+.experience .experience__text-container .experience__description {
     font-size: 32px;
     margin-top: 20px;
 }

@@ -6,6 +6,9 @@
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #inicio .contenido .presentacion {
@@ -46,4 +49,13 @@
     margin: 25px auto;
     font-size: 18px;
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    #inicio .contenido .presentacion h2 {
+        font-size: 60px;
+    }
+    #inicio .contenido .presentacion .logo {
+        height: 100px;
+    }
 }
